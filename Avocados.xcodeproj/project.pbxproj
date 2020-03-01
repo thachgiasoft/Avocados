@@ -13,6 +13,10 @@
 		EA568994240AF5170093E857 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA568993240AF5170093E857 /* Assets.xcassets */; };
 		EA568997240AF5170093E857 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA568996240AF5170093E857 /* Preview Assets.xcassets */; };
 		EA56899A240AF5170093E857 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA568998240AF5170093E857 /* LaunchScreen.storyboard */; };
+		EA9A15E8240B350C00CAB589 /* AvocadosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9A15E7240B350C00CAB589 /* AvocadosView.swift */; };
+		EA9A15EA240B352A00CAB589 /* RipeningStagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9A15E9240B352A00CAB589 /* RipeningStagesView.swift */; };
+		EA9A15EC240B354C00CAB589 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9A15EB240B354C00CAB589 /* SettingsView.swift */; };
+		EA9A15EE240B356400CAB589 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9A15ED240B356400CAB589 /* AppView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		EA568996240AF5170093E857 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EA568999240AF5170093E857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA56899B240AF5170093E857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA9A15E7240B350C00CAB589 /* AvocadosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadosView.swift; sourceTree = "<group>"; };
+		EA9A15E9240B352A00CAB589 /* RipeningStagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStagesView.swift; sourceTree = "<group>"; };
+		EA9A15EB240B354C00CAB589 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		EA9A15ED240B356400CAB589 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +64,11 @@
 		EA56898C240AF5160093E857 /* Avocados */ = {
 			isa = PBXGroup;
 			children = (
+				EA9A15E4240B34C100CAB589 /* Model */,
+				EA9A15E3240B34A800CAB589 /* View */,
+				EA79D9D1240B3469008E6DBA /* Data */,
 				EA56898D240AF5160093E857 /* AppDelegate.swift */,
 				EA56898F240AF5160093E857 /* SceneDelegate.swift */,
-				EA568991240AF5160093E857 /* ContentView.swift */,
 				EA568993240AF5170093E857 /* Assets.xcassets */,
 				EA568998240AF5170093E857 /* LaunchScreen.storyboard */,
 				EA56899B240AF5170093E857 /* Info.plist */,
@@ -73,6 +83,32 @@
 				EA568996240AF5170093E857 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EA79D9D1240B3469008E6DBA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		EA9A15E3240B34A800CAB589 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EA568991240AF5160093E857 /* ContentView.swift */,
+				EA9A15E7240B350C00CAB589 /* AvocadosView.swift */,
+				EA9A15E9240B352A00CAB589 /* RipeningStagesView.swift */,
+				EA9A15EB240B354C00CAB589 /* SettingsView.swift */,
+				EA9A15ED240B356400CAB589 /* AppView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EA9A15E4240B34C100CAB589 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +182,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA9A15E8240B350C00CAB589 /* AvocadosView.swift in Sources */,
+				EA9A15EA240B352A00CAB589 /* RipeningStagesView.swift in Sources */,
 				EA56898E240AF5160093E857 /* AppDelegate.swift in Sources */,
+				EA9A15EE240B356400CAB589 /* AppView.swift in Sources */,
+				EA9A15EC240B354C00CAB589 /* SettingsView.swift in Sources */,
 				EA568990240AF5160093E857 /* SceneDelegate.swift in Sources */,
 				EA568992240AF5160093E857 /* ContentView.swift in Sources */,
 			);
